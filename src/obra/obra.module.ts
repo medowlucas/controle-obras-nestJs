@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { ObraService } from './obra.service';
 
-@Module({})
+@Module({
+  providers: [ObraService]
+})
 export class ObraModule {}
