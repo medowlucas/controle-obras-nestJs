@@ -1,7 +1,4 @@
 import { Module } from '@nestjs/common';
-import { VeiculoService } from './veiculo.service';
 
-@Module({
-  providers: [VeiculoService]
-})
+@Module({})
 export class VeiculoModule {}
